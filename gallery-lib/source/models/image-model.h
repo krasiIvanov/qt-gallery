@@ -3,10 +3,18 @@
 
 #include "gallery-lib_global.h"
 
+#include <QString>
+
 class GALLERYLIB_EXPORT ImageModel
 {
 public:
-    ImageModel();
+    explicit ImageModel(const QString &name ="");
+
+    QString name() const;
+    void setName(const QString &name);
+private:
+
+    QString mName;
 };
 
 #endif // IMAGEMODEL_H

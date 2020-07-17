@@ -24,12 +24,14 @@ INCLUDEPATH += source
 TARGET = gallery-lib
 
 SOURCES += \
-    source/controllers/master-controller.cpp \
+    source/controllers/image-loader.cpp \
+    source/models/image-list-model.cpp \
     source/models/image-model.cpp
 
 HEADERS += \
-    source/controllers/master-controller.h \
+    source/controllers/image-loader.h \
     source/gallery-lib_global.h \
+    source/models/image-list-model.h \
     source/models/image-model.h
 
 # Default rules for deployment.
