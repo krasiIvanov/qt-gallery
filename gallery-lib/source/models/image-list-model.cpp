@@ -42,6 +42,7 @@ namespace models {
 
     bool ImageListModel::removeRows(int row, int count, const QModelIndex &parent)
     {
+        //TODO
         return false;
     }
 
@@ -60,7 +61,7 @@ namespace models {
 
     void ImageListModel::setList(QVector<ImageModel> *list)
     {
-
+        //TODO
     }
 
 }
